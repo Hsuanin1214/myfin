@@ -4,11 +4,15 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "concurrently \"npm run serve\" \"npm run watch-sass\"",
+    "serve": "vite",
+    "watch-sass": "sass --watch assets/css/style.scss:assets/css/style.css",
     "build": "vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
+    "concurrently": "^8.2.2",
+    "sass": "^1.69.5",
     "vite": "^5.0.0"
   }
 }

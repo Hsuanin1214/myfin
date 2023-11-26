@@ -6,18 +6,121 @@
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MYFIN</title>
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@latest/dist/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="./bootstrap/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<body>
-  <header>
-    <nav>
-      <div></div>
-      <div>
-        <button type="button">註冊</button>
-        <button type="button">登入</button>
+<body class="bg-mainBlue">
+  <div class="bg-waveBlue bg-top-Wave-div">
+    <header class="container position-relative">
+      <nav class="d-flex justify-content-between align-items-center">
+        <h1><a href="#">MyFin</a></h1>
+        <div class="d-flex justify-content-center">
+          <button type="button" class="btn-yellowMain btn me-2 fw-bold rounded-pill px-4 btn-shadow"
+            style="font-size: 1.5rem;">註冊</button>
+          <button type="button" class="btn-yellowMain btn me-2 fw-bold rounded-pill px-4 btn-shadow"
+            style="font-size: 1.5rem;">登入</button>
+        </div>
+      </nav>
+      <span class="position-absolute color-white fw-bolder h4"
+        style="top:100%;left:20%;">總是苦惱沒有介面可以<br />一次性看到自己的所有資產?</span>
+      <div class="position-absolute" style="top:180%;left:25%;">
+        <button type="button" class="btn btn-darkBlue btn-shadow rounded-4 color-white fw-bolder py-5 px-4"
+          style="font-size: 2rem;">輕鬆管理財富，隨時掌握財務狀況</button>
+        <div style="overflow: hidden; width:5rem; right: -8%; bottom: -20%;" class="position-absolute">
+          <img src="./assets/img/titlePic.png" alt="" style="object-fit: cover;">
+        </div>
       </div>
-    </nav>
-  </header>
+    </header>
+  </div>
+  <div class="head_wave">
+  </div>
+  <section class="color-white container">
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <div class="display-3 fw-bolder">01</div>
+        <h2 class="h2 fw-bolder">記帳不再混亂，分類銀行帳戶功能</h2>
+        <p class="h4 mt-3">分類銀行帳戶功能讓您的每一筆交易都清晰可見，可以輕鬆追蹤每一筆費用和收入，各項收支進行分類，確保您的賬目整齊有序。</p>
+      </div>
+      <div class="col-12 col-md-6 position-relative">
+        <div style="overflow: hidden;" class="bg-white bg-round-shadow py-10 px-5">
+          <img src="./assets/img/accountCaption.png" alt="" style="object-fit: cover;">
+        </div>
+        <button class="rounded-circle btn-mainOrange btn-shadow btn color-white d-flex justify-content-center align-items-center position-absolute" style="width:200px; height:200px; left: -20%; bottom: -20%;" type="button">
+          <span class="h3 fw-bold">一起加入<br />MYFIN！！</span>
+        </button>
+      </div>
+    </div>
+    <div class="row mb-12 flex-row-reverse">
+      <div class="col-12 col-md-6">
+        <div class="display-3 fw-bolder">02</div>
+        <h2 class="h2 fw-bolder">全面的資產管理，只需幾次點擊</h2>
+        <p class="h4 mt-3">我們的用戶友好界面讓資產管理變得輕而易舉，即使是初次使用的用戶也能輕鬆上手，讓您愛上資產資產規劃！</p>
+      </div>
+      <div class="col-12 col-md-6 position-relative">
+        <div style="overflow: hidden;" class="bg-white bg-round-shadow py-10 px-5">
+          <img src="./assets/img/pieChartCaption.png" alt="Logo" style="object-fit: cover;">
+        </div>
+        <button class="rounded-circle btn-darkBlue btn-shadow btn color-white d-flex justify-content-center align-items-center position-absolute" style="width:200px; height:200px; right: -18%; bottom: -25%;" type="button">
+          <span class="h3 fw-bold">讓MYFIN<br />為您分析！</span>
+        </button>
+      </div>
+    </div>
+    <div class="row mb-12">
+      <div class="col-12 col-md-6">
+        <div class="display-3 fw-bolder">03</div>
+        <h2 class="h2 fw-bolder">投資記錄一目了然，調整更高效</h2>
+        <p class="h4 mt-3">幫您清晰記錄每一筆投資的去向，還能夠提供詳細的資金流動分析，從而靈活調整您的投資策略。</p>
+      </div>
+      <div class="col-12 col-md-6 position-relative">
+        <div style="overflow: hidden;" class="bg-white bg-round-shadow py-10 px-5">
+          <img src="./assets/img/investCaption.png" alt="" style="object-fit: cover;">
+        </div>
+        <button class="rounded-circle btn-mainOrange btn-shadow btn color-white d-flex justify-content-center align-items-center position-absolute" style="width:200px; height:200px; left: -20%; bottom: -20%;" type="button">
+          <span class="h3 fw-bold">讓MYFIN<br />為您分析！</span>
+        </button>
+      </div>
+    </div>
+    <div class="row mb-12 flex-row-reverse">
+      <div class="col-12 col-md-6">
+        <div class="display-3 fw-bolder">04</div>
+        <h2 class="h2 fw-bolder">及時提醒繳費，財務掌控更輕鬆</h2>
+        <p class="h4 mt-3">無論是信用卡賬單還是定期貸款，通過智能提醒系統即時通知您，幫助您避免逾期費用並保持良好的信用記錄。</p>
+      </div>
+      <div class="col-12 col-md-6 position-relative">
+        <div style="overflow: hidden;" class="bg-white bg-round-shadow py-10 px-5">
+          <img src="./assets/img/billCaption.png" alt="" style="object-fit: cover;">
+        </div>
+        <button class="rounded-circle btn-darkBlue btn-shadow btn color-white d-flex justify-content-center align-items-center position-absolute" style="width:200px; height:200px; right: -18%; bottom: -25%;" type="button">
+          <span class="h3 fw-bold">立即訂閱<br />輕鬆繳費！</span>
+        </button>
+      </div>
+    </div>
+  </section>
+  <div class="bottom_wave"></div>
+  <div class="bg-waveBlue bg-top-Wave-div"></div>
+  <section class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-2"><img src="./assets/img/freedompic.png" alt="" style="object-fit: cover; width: 100px;"></div>
+      <div style="overflow: hidden;" class="col-5 mr-5">
+        <h3 class="color-mainYellow fw-bolder h3">無負擔，高效管理您的財富！</h3>
+        <button type="button" class="btn-mainOrange btn fw-bold rounded-pill px-4 btn-shadow color-white mt-5"
+        style="font-size: 1.5rem;">立即使用</button>
+      </div>
+    </div>
+  </section>
+  <!-- <footer class="container mt-5">
+      <div class="row">
+        <div class="col-5">
+          <span>聯絡時間: 12:00 - 18:00</span>
+          <span>聯絡信箱: welcome09210801@gmail.com</span></div>
+        <div class="col-2">@MYFIN</div>
+        <div class="col-5">本網站僅供個人作品使用，不提供任何商業用途</div>
+      </div>
+    </footer> -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@latest/dist/js/bootstrap.bundle.min.js"></script> -->
+  <script src="./bootstrap/bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>

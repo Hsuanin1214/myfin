@@ -1,0 +1,104 @@
+$blue-dark :#5497D5;
+$blue-main : #53B5E1;
+$blue-sky : #05BAE4;
+$blue-wave : #84D3E3;
+$blue-light : #CBE9F6;
+
+$orange-dark : #FF8351;
+$orange-main : #FFA37E;
+$orange-light : #FFCFBB;
+
+$yellow-main : #FDCF52;
+$yellow-light : #FFE6BB;
+
+$white : #ffffff;
+$brown : #786767; 
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+//btn
+.btn-shadow{
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.btn-darkBlue:hover{
+    background-color: $blue-dark!important;
+}
+.btn-yellowMain:hover{
+    background-color: $yellow-main !important;
+    color: $white;
+}
+.btn-mainOrange:hover{
+    background-color: $orange-main !important;
+}
+//bg
+.bg-round-shadow{
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 1.875rem;;
+}
+.bg-mainBlue{
+    background-color: $blue-main;
+}
+.bg-darkBlue,.btn-darkBlue{
+    background-color: $blue-dark;
+}
+.bg-lightBlue{
+    background-color: $blue-light;
+}
+.bg-waveBlue{
+    background-color: $blue-wave;
+}
+
+.bg-yellowMain,.btn-yellowMain{
+    background-color: $yellow-main;
+}
+.bg-mainOrange,.btn-mainOrange{
+    background-color: $orange-main;
+}
+
+.bg-white{
+    background-color: $white;
+}
+
+//color
+.color-mainBlue{
+    color: $blue-main;
+}
+.color-darkBlue{
+    color: $blue-dark;
+}
+.color-lightBlue{
+    color: $blue-light;
+}
+.color-darkBlue{
+    color: $blue-dark;
+}
+.color-waveBlue{
+    color: $blue-wave;
+}
+
+.color-mainOrange{
+    color: $orange-main;
+}
+.color-lightOrange{
+    color: $orange-light;
+}
+.color-darkOrange{
+    color: $orange-dark;
+}
+
+.color-lightYellow{
+    color: $yellow-light;
+}
+.color-mainYellow{
+    color: $yellow-main;
+}
+
+.color-white{
+    color: $white;
+}
+.color-brown{
+    color: $brown;
+}
