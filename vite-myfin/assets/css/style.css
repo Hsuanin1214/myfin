@@ -101,6 +101,10 @@ img {
   color: #786767;
 }
 
+.color-black {
+  color: black;
+}
+
 h1 {
   background-image: url(../img/MYFIN.png);
   text-indent: 101%;
@@ -126,7 +130,7 @@ h1 {
   width: 100%;
   height: 409px;
   background-image: url(../img/bottomWaveSvg.svg);
-  background-position: bottom right;
+  background-position: bottom left;
 }
 
 .py-10 {
