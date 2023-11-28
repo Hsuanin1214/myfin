@@ -25,15 +25,15 @@
             </nav>
         </header>
     </div>
-    <div class="head_wave">
+    <div class="head_wave_bgWhite position-absolute" style="top:20%">
     </div>
     <div class="container">
-        <section class="color-white fw-bolder bg-mainBlue rounded-2">
-            <form action="" class="addUser-form">
-                <h1>用戶註冊</h1>
+        <section class="color-white fw-bolder bg-mainBlue rounded-3 p-3 addUser-panel">
+            <form action="" class="addUser-form text-center">
+                <h2 class="title color-white">用戶註冊</h2>
                 <div class="form-group">
                     <div class="addUser-input">
-                        <label for="idName">身分證字號</label>
+                        <label for="idName" class="color-white">身分證字號</label>
                         <input type="text" id="idName" placeholder="請填寫身分證字號" name="身分證字號">
                     </div>
                     <div class="alert-message">
@@ -45,7 +45,7 @@
                 </div>
                 <div class="form-group">
                     <div class="addUser-input">
-                        <label for="userAccount">用戶帳號</label>
+                        <label for="userAccount" class="color-white">用戶帳號</label>
                         <input type="text" id="userAccount" placeholder="請填寫用戶帳號" name="用戶帳號">
                     </div>
                     <div class="alert-message">
@@ -57,7 +57,7 @@
                 </div>
                 <div class="form-group">
                     <div class="addUser-input">
-                        <label for="userName">用戶姓名</label>
+                        <label for="userName" class="color-white">用戶姓名</label>
                         <input type="text" id="userName" placeholder="請填寫用戶姓名" name="用戶姓名">
                     </div>
                     <div class="alert-message">
@@ -69,7 +69,7 @@
                 </div>
                 <div class="form-group">
                     <div class="addUser-input">
-                        <label for="userPassword">用戶密碼</label>
+                        <label for="userPassword" class="color-white">用戶密碼</label>
                         <input type="number" id="userPassword" placeholder="請填寫用戶密碼" name="用戶密碼" min="0">
                         <div class="alert-message">
                             <p id="userPassword-message" data-message="用戶密碼">
@@ -77,8 +77,24 @@
                                 <span>必填!</span> -->
                             </p>
                         </div>
-                        <label for="userPasswordAgain"></label>
+                    </div>
+                    <div class="alert-message">
+                        <p id="userPasswordAgain-message" data-message="再次填寫用戶密碼">
+                            <!-- <i class="fas fa-exclamation-circle"></i>
+                            <span>必填!</span> -->
+                        </p>
+                    </div>
+                </div>
+                <div class="form-imput">
+                    <div class="addUser-input">
+                        <label for="userPasswordAgain">用戶密碼</label>
                         <input type="number" id="userPasswordAgain" placeholder="請再次填寫用戶密碼" name="再次填寫用戶密碼" min="0">
+                        <div class="alert-message">
+                            <p id="userPassword-message" data-message="用戶密碼">
+                                <!-- <i class="fas fa-exclamation-circle"></i>
+                                <span>必填!</span> -->
+                            </p>
+                        </div>
                     </div>
                     <div class="alert-message">
                         <p id="userPasswordAgain-message" data-message="再次填寫用戶密碼">
@@ -89,7 +105,7 @@
                 </div>
                 <div class="form-group">
                     <div class="addUser-input">
-                        <label for="userEmail">電子信箱</label>
+                        <label for="userEmail" class="color-white">電子信箱</label>
                         <input type="text" id="userEmail" placeholder="請填寫電子信箱" name="電子信箱">
                     </div>
                     <div class="alert-message">
@@ -101,7 +117,7 @@
                 </div>
                 <div class="form-group">
                     <div class="addUser-input">
-                        <label for="userBth">生日</label>
+                        <label for="userBth" class="color-white">生日</label>
                         <!-- <input type="number" id="ticketRate" placeholder="請填寫套票星級" name="套票星級" min="1" max="10"> -->
                     </div>
                     <div class="alert-message">
@@ -112,7 +128,7 @@
                     </div>
                 </div>
                 <!--             <input type="submit" class="addUser-btn btn" value="新增套票"> -->
-                <button type="button" class="btn-mainOrange btn me-2 fw-bold rounded-pill px-4 btn-shadow"
+                <button type="button" class="btn-mainOrange btn me-2 fw-bold rounded-pill px-4 btn-shadow color-white"
                 style="font-size: 1.5rem;">註冊</button>
             </form>
         </section>
