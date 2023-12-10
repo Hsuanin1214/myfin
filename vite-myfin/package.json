@@ -4,9 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "concurrently \"npm run serve\" \"npm run watch-sass\"",
+    "dev": "concurrently \"npm run serve\" \"npm run watch-sass\" \"npm run watch-json\"",
     "serve": "vite",
     "watch-sass": "sass --watch assets/css/style.scss:assets/css/style.css",
+    "watch-json": "json-server --watch db.json",
     "build": "vite build",
     "preview": "vite preview"
   },
@@ -14,5 +15,8 @@
     "concurrently": "^8.2.2",
     "sass": "^1.69.5",
     "vite": "^5.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.2"
   }
 }
