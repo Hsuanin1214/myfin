@@ -38,6 +38,8 @@
     -webkit-box-shadow: 0px 3px 6px #00000029;
     box-shadow: 0px 3px 6px #00000029;
     border-radius: 12px;
+    // z-index: 10; /* 或更高的值 */
+    // position: relative; /* 必須設定position屬性為relative, absolute或fixed */
 }
 
 .addUser-panel {
@@ -48,10 +50,10 @@
     flex-wrap: wrap;
     -webkit-box-pack: space-evenly;
     -ms-flex-pack: space-evenly;
-    justify-content: space-evenly;
-    max-width: 920px;
-    margin: 120px auto 100px;
-    padding: 60px 0;
+    justify-content: center;
+    max-width: 600px;
+    margin: -80px auto 100px;
+    padding: 30px 0;
 }
 
 @media (max-width: 768px) {
@@ -65,7 +67,7 @@
 
 .addUser-img,
 .addUser-form {
-    width: 38%;
+    width: 90%;
 }
 
 @media (max-width: 768px) {
@@ -87,7 +89,7 @@
 }
 
 .title {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
     margin-bottom: 36px;
 }
@@ -190,7 +192,7 @@
     -ms-flex-pack: end;
     justify-content: flex-end;
     margin-top: 3px;
-    color: #B21C01;
+    color: $orange-main;
     font-size: 0.85rem;
 }
 
@@ -462,4 +464,14 @@
     .cantFind-area {
         margin-top: 0px;
     }
+}
+.circle {
+    position: absolute;
+    bottom: -2%; /* 定位到底部 */
+    left: 82%; /* 水平置中 */
+    transform: translate(-50%, 50%); /* 向上移動圓形的一半高度 */
+    // width: 100px; /* 圓形的寬度 */
+    // height: 100px; /* 圓形的高度 */
+    // background-color: blue; /* 圓形的背景色 */
+    // border-radius: 50%; /* 圓形的邊界半徑 */
 }

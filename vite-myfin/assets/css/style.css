@@ -1,3 +1,4 @@
+@charset "UTF-8";
 *,
 *::after,
 *::before {
@@ -189,10 +190,10 @@ h1 {
   flex-wrap: wrap;
   -webkit-box-pack: space-evenly;
   -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
-  max-width: 920px;
-  margin: 120px auto 100px;
-  padding: 60px 0;
+  justify-content: center;
+  max-width: 600px;
+  margin: -80px auto 100px;
+  padding: 30px 0;
 }
 
 @media (max-width: 768px) {
@@ -205,7 +206,7 @@ h1 {
 }
 .addUser-img,
 .addUser-form {
-  width: 38%;
+  width: 90%;
 }
 
 @media (max-width: 768px) {
@@ -224,7 +225,7 @@ h1 {
   }
 }
 .title {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
   margin-bottom: 36px;
 }
@@ -324,7 +325,7 @@ h1 {
   -ms-flex-pack: end;
   justify-content: flex-end;
   margin-top: 3px;
-  color: #B21C01;
+  color: #FFA37E;
   font-size: 0.85rem;
 }
 
@@ -576,6 +577,12 @@ h1 {
   .cantFind-area {
     margin-top: 0px;
   }
+}
+.circle {
+  position: absolute;
+  bottom: -2%; /* 定位到底部 */
+  left: 82%; /* 水平置中 */
+  transform: translate(-50%, 50%); /* 向上移動圓形的一半高度 */
 }
 
 /*# sourceMappingURL=style.css.map */
